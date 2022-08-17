@@ -1,3 +1,12 @@
+## [0.2.1](https://github.com/emanueleborin/greetings-ci/compare/v0.2.0...v0.2.1) (2022-08-17)
+
+
+### Bug Fixes
+
+* remove branches other than _artifact_ one ([f33e466](https://github.com/emanueleborin/greetings-ci/commit/f33e466fcb98950c6795dad8cf79e3a42a0dae6c))
+
+
+
 # [0.2.0](https://github.com/emanueleborin/greetings-ci/compare/v0.1.1...v0.2.0) (2022-08-17)
 
 
