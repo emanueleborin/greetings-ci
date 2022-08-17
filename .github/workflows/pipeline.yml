@@ -14,8 +14,8 @@ on:
     branches: [ "main" ]
   workflow_dispatch:
     inputs:
-    myValues:
-      description: 'Input Values'
+      myValues:
+        description: 'Input Values'
 
 permissions:
   contents: write
