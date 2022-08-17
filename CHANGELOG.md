@@ -1,32 +1,10 @@
-# [0.3.0](https://github.com/emanueleborin/greetings-ci/compare/v0.2.1...v0.3.0) (2022-08-17)
+# [0.4.0](https://github.com/emanueleborin/greetings-ci/compare/v0.1.1...v0.4.0) (2022-08-17)
 
 
 ### Features
 
-* version artifact ([e76b8af](https://github.com/emanueleborin/greetings-ci/commit/e76b8affea3661ab2b583b9cfbc9a1cac336d427))
-
-
-
-## [0.2.1](https://github.com/emanueleborin/greetings-ci/compare/v0.2.0...v0.2.1) (2022-08-17)
-
-
-### Bug Fixes
-
-* remove branches other than _artifact_ one ([f33e466](https://github.com/emanueleborin/greetings-ci/commit/f33e466fcb98950c6795dad8cf79e3a42a0dae6c))
-
-
-
-# [0.2.0](https://github.com/emanueleborin/greetings-ci/compare/v0.1.1...v0.2.0) (2022-08-17)
-
-
-### Bug Fixes
-
-* artifact branch added ([461137a](https://github.com/emanueleborin/greetings-ci/commit/461137a4bebeec015c2c8ecabaeba29eb73ac6e9))
-
-
-### Features
-
-* upload artifact ([d21d28f](https://github.com/emanueleborin/greetings-ci/commit/d21d28f0d3d125936fd851df626a531035f6f6da))
+* merge in artifact versioning ([11abe3c](https://github.com/emanueleborin/greetings-ci/commit/11abe3c51124dc7f89ea905f207e6e4db2eeaea0))
+* version artifact ([10756c7](https://github.com/emanueleborin/greetings-ci/commit/10756c700e4a64f373125526f41a9dd3f4e435b6))
 
 
 
