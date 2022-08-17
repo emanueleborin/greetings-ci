@@ -1,3 +1,12 @@
+# [0.5.0](https://github.com/emanueleborin/greetings-ci/compare/v0.4.0...v0.5.0) (2022-08-17)
+
+
+### Features
+
+* add testing to pipeline ([179e5fd](https://github.com/emanueleborin/greetings-ci/commit/179e5fd7012586cf4b1a90d27e7b750b4f099464))
+
+
+
 # [0.4.0](https://github.com/emanueleborin/greetings-ci/compare/v0.1.1...v0.4.0) (2022-08-17)
 
 
