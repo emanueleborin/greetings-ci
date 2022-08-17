@@ -9,9 +9,9 @@ name: Java CI with Gradle
 
 on:
   push:
-    branches: [ "main", "changelog", "artifact" ]
+    branches: [ "artifact" ]
   pull_request:
-    branches: [ "main", "changelog", "artifact" ]
+    branches: [ "artifact" ]
 
 permissions:
   contents: write
