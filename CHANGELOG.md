@@ -1,3 +1,12 @@
+# [0.7.0](https://github.com/emanueleborin/greetings-ci/compare/v0.6.1...v0.7.0) (2022-08-17)
+
+
+### Features
+
+* create issue on failure ([d814d9d](https://github.com/emanueleborin/greetings-ci/commit/d814d9d6c3011172a1577f8fb003a8521f484874))
+
+
+
 ## [0.6.1](https://github.com/emanueleborin/greetings-ci/compare/v0.6.0...v0.6.1) (2022-08-17)
 
 
@@ -31,16 +40,6 @@
 ### Features
 
 * add testing to pipeline ([179e5fd](https://github.com/emanueleborin/greetings-ci/commit/179e5fd7012586cf4b1a90d27e7b750b4f099464))
-
-
-
-# [0.4.0](https://github.com/emanueleborin/greetings-ci/compare/v0.1.1...v0.4.0) (2022-08-17)
-
-
-### Features
-
-* merge in artifact versioning ([11abe3c](https://github.com/emanueleborin/greetings-ci/commit/11abe3c51124dc7f89ea905f207e6e4db2eeaea0))
-* version artifact ([10756c7](https://github.com/emanueleborin/greetings-ci/commit/10756c700e4a64f373125526f41a9dd3f4e435b6))
 
 
 
