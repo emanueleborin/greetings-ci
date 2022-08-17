@@ -1,3 +1,17 @@
+# [0.2.0](https://github.com/emanueleborin/greetings-ci/compare/v0.1.1...v0.2.0) (2022-08-17)
+
+
+### Bug Fixes
+
+* artifact branch added ([461137a](https://github.com/emanueleborin/greetings-ci/commit/461137a4bebeec015c2c8ecabaeba29eb73ac6e9))
+
+
+### Features
+
+* upload artifact ([d21d28f](https://github.com/emanueleborin/greetings-ci/commit/d21d28f0d3d125936fd851df626a531035f6f6da))
+
+
+
 ## [0.1.1](https://github.com/emanueleborin/greetings-ci/compare/v0.1.0...v0.1.1) (2022-08-10)
 
 
