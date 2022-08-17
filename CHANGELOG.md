@@ -1,3 +1,12 @@
+## [0.5.1](https://github.com/emanueleborin/greetings-ci/compare/v0.5.0...v0.5.1) (2022-08-17)
+
+
+### Bug Fixes
+
+* test script name ([6daadea](https://github.com/emanueleborin/greetings-ci/commit/6daadeac7a51e149347d1e72b1f9c34b02412780))
+
+
+
 # [0.5.0](https://github.com/emanueleborin/greetings-ci/compare/v0.4.0...v0.5.0) (2022-08-17)
 
 
