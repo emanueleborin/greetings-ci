@@ -1,3 +1,12 @@
+## [0.6.1](https://github.com/emanueleborin/greetings-ci/compare/v0.6.0...v0.6.1) (2022-08-17)
+
+
+### Bug Fixes
+
+* myValues indentation ([eee6299](https://github.com/emanueleborin/greetings-ci/commit/eee6299065916b2eb5e4295ea86f883003445d48))
+
+
+
 # [0.6.0](https://github.com/emanueleborin/greetings-ci/compare/v0.5.1...v0.6.0) (2022-08-17)
 
 
@@ -32,15 +41,6 @@
 
 * merge in artifact versioning ([11abe3c](https://github.com/emanueleborin/greetings-ci/commit/11abe3c51124dc7f89ea905f207e6e4db2eeaea0))
 * version artifact ([10756c7](https://github.com/emanueleborin/greetings-ci/commit/10756c700e4a64f373125526f41a9dd3f4e435b6))
-
-
-
-## [0.1.1](https://github.com/emanueleborin/greetings-ci/compare/v0.1.0...v0.1.1) (2022-08-10)
-
-
-### Bug Fixes
-
-* reset change log ([bf3c956](https://github.com/emanueleborin/greetings-ci/commit/bf3c9567db7558b7d26a451073d30a6869c2e06f)), closes [#2](https://github.com/emanueleborin/greetings-ci/issues/2)
 
 
 
