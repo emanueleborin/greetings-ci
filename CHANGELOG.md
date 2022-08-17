@@ -1,3 +1,12 @@
+# [0.3.0](https://github.com/emanueleborin/greetings-ci/compare/v0.2.1...v0.3.0) (2022-08-17)
+
+
+### Features
+
+* version artifact ([e76b8af](https://github.com/emanueleborin/greetings-ci/commit/e76b8affea3661ab2b583b9cfbc9a1cac336d427))
+
+
+
 ## [0.2.1](https://github.com/emanueleborin/greetings-ci/compare/v0.2.0...v0.2.1) (2022-08-17)
 
 
