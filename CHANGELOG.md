@@ -1,9 +1,9 @@
-## [0.9.1](https://github.com/emanueleborin/greetings-ci/compare/v0.9.0...v0.9.1) (2022-09-05)
+## [0.9.2](https://github.com/emanueleborin/greetings-ci/compare/v0.9.0...v0.9.2) (2022-09-05)
 
 
 ### Bug Fixes
 
-* update to greeting for blue ([1e8ae52](https://github.com/emanueleborin/greetings-ci/commit/1e8ae529fe53af1c999b9ce5638b735db8719d11))
+* blue ([fb8affd](https://github.com/emanueleborin/greetings-ci/commit/fb8affdb8f9f102fcb90ce749193e04552befd1c))
 
 
 
