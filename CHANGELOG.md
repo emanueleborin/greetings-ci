@@ -1,3 +1,12 @@
+# [0.9.0](https://github.com/emanueleborin/greetings-ci/compare/v0.8.1...v0.9.0) (2022-09-05)
+
+
+### Features
+
+* add deployment ([a572825](https://github.com/emanueleborin/greetings-ci/commit/a572825a61f7d600b09a00ad9986403e721ff1ca))
+
+
+
 ## [0.8.1](https://github.com/emanueleborin/greetings-ci/compare/v0.7.1...v0.8.1) (2022-09-05)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * myValues indentation ([eee6299](https://github.com/emanueleborin/greetings-ci/commit/eee6299065916b2eb5e4295ea86f883003445d48))
-
-
-
-# [0.6.0](https://github.com/emanueleborin/greetings-ci/compare/v0.5.1...v0.6.0) (2022-08-17)
-
-
-### Features
-
-* make pipeline runnable manually ([0512e6f](https://github.com/emanueleborin/greetings-ci/commit/0512e6f9efcaaac0a079f793a4e9090d02da6936))
 
 
 
