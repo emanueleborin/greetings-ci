@@ -1,3 +1,17 @@
+# [0.8.0](https://github.com/emanueleborin/greetings-ci/compare/v0.7.1...v0.8.0) (2022-09-05)
+
+
+### Bug Fixes
+
+* prevent code injection ([7dd5704](https://github.com/emanueleborin/greetings-ci/commit/7dd570433d572772dd67a20066ee22289863746a))
+
+
+### Features
+
+* call custom test-action ([80bb2ad](https://github.com/emanueleborin/greetings-ci/commit/80bb2adf2d70be2426a49a1f1bad16cde07f6307))
+
+
+
 ## [0.7.1](https://github.com/emanueleborin/greetings-ci/compare/v0.7.0...v0.7.1) (2022-09-05)
 
 
@@ -31,15 +45,6 @@
 ### Features
 
 * make pipeline runnable manually ([0512e6f](https://github.com/emanueleborin/greetings-ci/commit/0512e6f9efcaaac0a079f793a4e9090d02da6936))
-
-
-
-## [0.5.1](https://github.com/emanueleborin/greetings-ci/compare/v0.5.0...v0.5.1) (2022-08-17)
-
-
-### Bug Fixes
-
-* test script name ([6daadea](https://github.com/emanueleborin/greetings-ci/commit/6daadeac7a51e149347d1e72b1f9c34b02412780))
 
 
 
