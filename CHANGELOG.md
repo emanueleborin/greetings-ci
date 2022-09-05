@@ -1,3 +1,12 @@
+## [0.7.1](https://github.com/emanueleborin/greetings-ci/compare/v0.7.0...v0.7.1) (2022-09-05)
+
+
+### Bug Fixes
+
+* add version as input to the pipeline ([35733df](https://github.com/emanueleborin/greetings-ci/commit/35733df2a7a4eff596317d2a75ea3bd7322c597c))
+
+
+
 # [0.7.0](https://github.com/emanueleborin/greetings-ci/compare/v0.6.1...v0.7.0) (2022-08-17)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * test script name ([6daadea](https://github.com/emanueleborin/greetings-ci/commit/6daadeac7a51e149347d1e72b1f9c34b02412780))
-
-
-
-# [0.5.0](https://github.com/emanueleborin/greetings-ci/compare/v0.4.0...v0.5.0) (2022-08-17)
-
-
-### Features
-
-* add testing to pipeline ([179e5fd](https://github.com/emanueleborin/greetings-ci/commit/179e5fd7012586cf4b1a90d27e7b750b4f099464))
 
 
 
