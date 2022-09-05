@@ -9,9 +9,7 @@ name: Java CI with Gradle
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    branches: [ "main", "blue", "green" ]
   workflow_dispatch:
     inputs:
       myVersion:
@@ -23,6 +21,7 @@ permissions:
   contents: write
 
 jobs:
+  
   build:
 
     runs-on: ubuntu-latest
@@ -59,6 +58,7 @@ jobs:
           build/libs
           test-script.sh
 
+  
   test-run:
     runs-on: ubuntu-latest
     needs: build
@@ -72,6 +72,73 @@ jobs:
       with:
         artifact-version: ${{ needs.build.outputs.artifact-tag || github.event.inputs.myVersion }}
         arguments-to-print: ${{ github.event.inputs.myValues }}
+
+  
+  deploy-stage:
+  
+    needs: [build, test-run]
+    if: github.ref == 'refs/heads/blue' || github.ref == 'refs/heads/green' 
+      
+    runs-on: ubuntu-latest
+    environment: 
+      name: staging
+      url: https://github.com/${{ github.repository }}/releases/tag/v${{ needs.build.outputs.artifact-tag || github.event.inputs.myVersion }}    
+    
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+        
+      - name: Download candidate artifacts
+        uses: actions/download-artifact@v3       
+        with:
+          name: greetings-jar  
+    
+      - name: GH Release
+        uses: softprops/action-gh-release@v0.1.14
+        with: 
+          tag_name: v${{ needs.build.outputs.artifact-tag || github.event.inputs.myVersion }}
+          prerelease: true
+          draft: true
+          name: ${{ github.ref_name }}
+          files: |
+            greetings-ci-${{ needs.build.outputs.artifact-tag || github.event.inputs.myVersion }}.jar
+
+
+  
+  
+  
+  
+  deploy-prod:
+  
+    needs: [build, test-run]
+    if: github.ref == 'refs/heads/main' 
+    
+    runs-on: ubuntu-latest
+    environment: 
+      name: production
+      url: https://github.com/${{ github.repository }}/releases/tag/v${{ needs.build.outputs.artifact-tag || github.event.inputs.myVersion }}
+    steps:
+    
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          
+      - name: Download candidate artifacts
+        uses: actions/download-artifact@v3       
+        with:
+          name: greetings-jar    
+        
+      - name: GH Release
+        uses: softprops/action-gh-release@v0.1.14
+        with: 
+          tag_name: v${{ needs.build.outputs.artifact-tag || github.event.inputs.myVersion }}
+          generate_release_notes: true
+          name: Production
+          files: |
+            CHANGELOG.md
+            greetings-ci-${{ needs.build.outputs.artifact-tag || github.event.inputs.myVersion }}.jar
+
 
   create-issue-on-failure:
 
