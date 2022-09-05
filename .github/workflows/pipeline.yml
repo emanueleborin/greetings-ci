@@ -14,6 +14,8 @@ on:
     branches: [ "main" ]
   workflow_dispatch:
     inputs:
+      myVersion:
+        description: 'Input Version'
       myValues:
         description: 'Input Values'
 
@@ -47,7 +49,7 @@ jobs:
         arguments: build
     
     - name: Tag artifact
-      run: mv build/libs/greetings-ci.jar build/libs/greetings-ci-${{ steps.changelog.outputs.version }}.jar
+      run: mv build/libs/greetings-ci.jar build/libs/greetings-ci-${{ steps.changelog.outputs.version || github.event.inputs.myVersion }}.jar
     
     - name: Upload Artifact
       uses: actions/upload-artifact@v3
@@ -71,7 +73,7 @@ jobs:
       shell: bash
       run: |
         chmod +x ./test-script.sh
-        ./test-script.sh ${{ needs.build.outputs.artifact-tag }} ${{ github.event.inputs.myValues }}
+        ./test-script.sh ${{ needs.build.outputs.artifact-tag || github.event.inputs.myVersion }} ${{ github.event.inputs.myValues }}
 
   create-issue-on-failure:
 
