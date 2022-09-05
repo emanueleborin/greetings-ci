@@ -1,14 +1,9 @@
-# [0.8.0](https://github.com/emanueleborin/greetings-ci/compare/v0.7.1...v0.8.0) (2022-09-05)
+## [0.8.1](https://github.com/emanueleborin/greetings-ci/compare/v0.7.1...v0.8.1) (2022-09-05)
 
 
 ### Bug Fixes
 
 * prevent code injection ([7dd5704](https://github.com/emanueleborin/greetings-ci/commit/7dd570433d572772dd67a20066ee22289863746a))
-
-
-### Features
-
-* call custom test-action ([80bb2ad](https://github.com/emanueleborin/greetings-ci/commit/80bb2adf2d70be2426a49a1f1bad16cde07f6307))
 
 
 
