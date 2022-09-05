@@ -64,18 +64,14 @@ jobs:
     needs: build
 
     steps:
-    - name: Download candidate artifacts
-      uses: actions/download-artifact@v3
-      with:
-        name: greetings-jar
 
-    - name: Execute test
-      shell: bash
-      env:
-        ARGS: ${{ github.event.inputs.myValues }}
-      run: |
-        chmod +x ./test-script.sh
-        ./test-script.sh ${{ needs.build.outputs.artifact-tag || github.event.inputs.myVersion }} "$ARGS"
+    - uses: actions/checkout@v3
+
+    - name: run-test
+      uses: ./.github/actions/test-action
+      with:
+        artifact-version: ${{ needs.build.outputs.artifact-tag || github.event.inputs.myVersion }}
+        arguments-to-print: ${{ github.event.inputs.myValues }}
 
   create-issue-on-failure:
 
