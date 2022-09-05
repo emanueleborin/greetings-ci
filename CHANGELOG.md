@@ -1,3 +1,12 @@
+## [0.7.2](https://github.com/emanueleborin/greetings-ci/compare/v0.7.1...v0.7.2) (2022-09-05)
+
+
+### Bug Fixes
+
+* print output.bench content ([7166dd9](https://github.com/emanueleborin/greetings-ci/commit/7166dd97a232b0e460e08098570631cfd458527d))
+
+
+
 ## [0.7.1](https://github.com/emanueleborin/greetings-ci/compare/v0.7.0...v0.7.1) (2022-09-05)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * make pipeline runnable manually ([0512e6f](https://github.com/emanueleborin/greetings-ci/commit/0512e6f9efcaaac0a079f793a4e9090d02da6936))
-
-
-
-## [0.5.1](https://github.com/emanueleborin/greetings-ci/compare/v0.5.0...v0.5.1) (2022-08-17)
-
-
-### Bug Fixes
-
-* test script name ([6daadea](https://github.com/emanueleborin/greetings-ci/commit/6daadeac7a51e149347d1e72b1f9c34b02412780))
 
 
 
