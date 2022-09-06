@@ -1,9 +1,9 @@
-## [0.9.3](https://github.com/emanueleborin/greetings-ci/compare/v0.9.2...v0.9.3) (2022-09-05)
+## [0.9.4](https://github.com/emanueleborin/greetings-ci/compare/v0.9.2...v0.9.4) (2022-09-06)
 
 
 ### Bug Fixes
 
-* green ([edafb11](https://github.com/emanueleborin/greetings-ci/commit/edafb117728b980244a3b0ae74d90b09cd01cbd3))
+* Green ([dd215da](https://github.com/emanueleborin/greetings-ci/commit/dd215dab094964ab76f777def4aa9e54962929f3))
 
 
 
