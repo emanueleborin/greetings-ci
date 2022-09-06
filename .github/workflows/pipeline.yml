@@ -15,8 +15,10 @@ on:
       myVersion:
         description: 'Input Version'
         default: 'put_your_version_here'
+        required: true
       myValues:
         description: 'Input Values'
+        default: 'put your test strings here'
 
 permissions:
   contents: write
