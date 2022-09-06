@@ -1,3 +1,12 @@
+## [0.9.6](https://github.com/emanueleborin/greetings-ci/compare/v0.9.5...v0.9.6) (2022-09-06)
+
+
+### Bug Fixes
+
+* make myVersion mandatory ([be7d906](https://github.com/emanueleborin/greetings-ci/commit/be7d906f97c248b3a5201e33eb4bcdf29f030011))
+
+
+
 ## [0.9.5](https://github.com/emanueleborin/greetings-ci/compare/v0.9.4...v0.9.5) (2022-09-06)
 
 
@@ -23,15 +32,6 @@
 ### Features
 
 * add deployment ([a572825](https://github.com/emanueleborin/greetings-ci/commit/a572825a61f7d600b09a00ad9986403e721ff1ca))
-
-
-
-## [0.8.1](https://github.com/emanueleborin/greetings-ci/compare/v0.7.1...v0.8.1) (2022-09-05)
-
-
-### Bug Fixes
-
-* prevent code injection ([7dd5704](https://github.com/emanueleborin/greetings-ci/commit/7dd570433d572772dd67a20066ee22289863746a))
 
 
 
