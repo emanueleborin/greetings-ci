@@ -1,3 +1,12 @@
+## [0.9.7](https://github.com/emanueleborin/greetings-ci/compare/v0.9.6...v0.9.7) (2022-09-06)
+
+
+### Bug Fixes
+
+* remove myVersion default ([2fe2488](https://github.com/emanueleborin/greetings-ci/commit/2fe24882e478a13be5ffe809bc6250408554395b))
+
+
+
 ## [0.9.6](https://github.com/emanueleborin/greetings-ci/compare/v0.9.5...v0.9.6) (2022-09-06)
 
 
@@ -23,15 +32,6 @@
 ### Bug Fixes
 
 * blue ([fb8affd](https://github.com/emanueleborin/greetings-ci/commit/fb8affdb8f9f102fcb90ce749193e04552befd1c))
-
-
-
-# [0.9.0](https://github.com/emanueleborin/greetings-ci/compare/v0.8.1...v0.9.0) (2022-09-05)
-
-
-### Features
-
-* add deployment ([a572825](https://github.com/emanueleborin/greetings-ci/commit/a572825a61f7d600b09a00ad9986403e721ff1ca))
 
 
 
