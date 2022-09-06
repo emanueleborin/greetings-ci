@@ -14,6 +14,7 @@ on:
     inputs:
       myVersion:
         description: 'Input Version'
+        default: 'put_your_version_here'
       myValues:
         description: 'Input Values'
 
