@@ -1,9 +1,10 @@
-## [0.9.4](https://github.com/emanueleborin/greetings-ci/compare/v0.9.2...v0.9.4) (2022-09-06)
+## [0.9.5](https://github.com/emanueleborin/greetings-ci/compare/v0.9.4...v0.9.5) (2022-09-06)
 
 
 ### Bug Fixes
 
 * Green ([dd215da](https://github.com/emanueleborin/greetings-ci/commit/dd215dab094964ab76f777def4aa9e54962929f3))
+* set myVersion default ([a2bf58d](https://github.com/emanueleborin/greetings-ci/commit/a2bf58d3806683053e7fdf444e497d23995a85c8))
 
 
 
@@ -31,15 +32,6 @@
 ### Bug Fixes
 
 * prevent code injection ([7dd5704](https://github.com/emanueleborin/greetings-ci/commit/7dd570433d572772dd67a20066ee22289863746a))
-
-
-
-## [0.7.1](https://github.com/emanueleborin/greetings-ci/compare/v0.7.0...v0.7.1) (2022-09-05)
-
-
-### Bug Fixes
-
-* add version as input to the pipeline ([35733df](https://github.com/emanueleborin/greetings-ci/commit/35733df2a7a4eff596317d2a75ea3bd7322c597c))
 
 
 
