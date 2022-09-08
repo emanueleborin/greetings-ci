@@ -1,9 +1,10 @@
-## [0.9.8](https://github.com/emanueleborin/greetings-ci/compare/v0.9.7...v0.9.8) (2022-09-08)
+## [0.9.9](https://github.com/emanueleborin/greetings-ci/compare/v0.9.7...v0.9.9) (2022-09-08)
 
 
 ### Bug Fixes
 
-* green again ([2a8c79e](https://github.com/emanueleborin/greetings-ci/commit/2a8c79ef68593d5c504833114752059ac3a28595))
+* Green again ([#16](https://github.com/emanueleborin/greetings-ci/issues/16)) ([d8fe9c2](https://github.com/emanueleborin/greetings-ci/commit/d8fe9c284826a9112be2d7f0173a72dfa14ab90f))
+* print output.bench content ([d8a0717](https://github.com/emanueleborin/greetings-ci/commit/d8a0717edd34fa3c5d92f456a92f2d7f40f50e20))
 
 
 
