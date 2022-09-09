@@ -1,3 +1,12 @@
+## [0.10.1](https://github.com/emanueleborin/greetings-ci/compare/v0.10.0...v0.10.1) (2022-09-09)
+
+
+### Bug Fixes
+
+* remove green referencies ([d0a3180](https://github.com/emanueleborin/greetings-ci/commit/d0a3180e11c229f299365c33abd283bb1dc0d7a1))
+
+
+
 # [0.10.0](https://github.com/emanueleborin/greetings-ci/compare/v1.0.0...v0.10.0) (2022-09-09)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * make myVersion mandatory ([be7d906](https://github.com/emanueleborin/greetings-ci/commit/be7d906f97c248b3a5201e33eb4bcdf29f030011))
-
-
-
-## [0.9.5](https://github.com/emanueleborin/greetings-ci/compare/v0.9.4...v0.9.5) (2022-09-06)
-
-
-### Bug Fixes
-
-* set myVersion default ([a2bf58d](https://github.com/emanueleborin/greetings-ci/commit/a2bf58d3806683053e7fdf444e497d23995a85c8))
 
 
 
