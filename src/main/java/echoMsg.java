@@ -4,9 +4,9 @@ public class echoMsg  {
     public static void main(String[] args) {
       String value = System.getenv("USERNAME");
       if (value != null) {
-          System.out.format("Greetings green again %s!\n",value);
+          System.out.format("Greetings %s!\n",value);
       } else {
-          System.out.println("Greetings green again!");
+          System.out.println("Greetings!");
       }
 
       if (args.length > 0) {
