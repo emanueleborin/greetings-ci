@@ -1,9 +1,18 @@
-## [0.9.8](https://github.com/emanueleborin/greetings-ci/compare/v0.9.7...v0.9.8) (2022-09-08)
+# [0.10.0](https://github.com/emanueleborin/greetings-ci/compare/v1.0.0...v0.10.0) (2022-09-09)
+
+
+### Features
+
+* Create README.md ([#17](https://github.com/emanueleborin/greetings-ci/issues/17)) (blue) ([6d50414](https://github.com/emanueleborin/greetings-ci/commit/6d50414abfb66801dcd5aa75e7575e84f82283db))
+
+
+
+# [1.0.0](https://github.com/emanueleborin/greetings-ci/compare/v0.9.7...v1.0.0) (2022-09-08)
 
 
 ### Bug Fixes
 
-* green again ([2a8c79e](https://github.com/emanueleborin/greetings-ci/commit/2a8c79ef68593d5c504833114752059ac3a28595))
+* Green again ([#16](https://github.com/emanueleborin/greetings-ci/issues/16)) ([d8fe9c2](https://github.com/emanueleborin/greetings-ci/commit/d8fe9c284826a9112be2d7f0173a72dfa14ab90f))
 
 
 
@@ -30,7 +39,6 @@
 
 ### Bug Fixes
 
-* Green ([dd215da](https://github.com/emanueleborin/greetings-ci/commit/dd215dab094964ab76f777def4aa9e54962929f3))
 * set myVersion default ([a2bf58d](https://github.com/emanueleborin/greetings-ci/commit/a2bf58d3806683053e7fdf444e497d23995a85c8))
 
 
